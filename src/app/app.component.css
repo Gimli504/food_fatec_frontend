@@ -1,0 +1,27 @@
+/* Reset de estilos para mat-card */
+.mat-card {
+    background-color: #fff; /* Cor de fundo branca */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra suave */
+  }
+  
+  /* Estilo para o conteúdo do mat-card */
+  .mat-card-content {
+    color: #333; /* Cor do texto */
+  }
+  
+  /* Estilo para o título do mat-card */
+  .mat-card-title {
+    color: #3f51b5; /* Cor do título */
+  }
+  
+  /* Estilo para o cabeçalho do mat-card */
+  .mat-card-header {
+    background-color: #3f51b5; /* Cor de fundo do cabeçalho */
+    color: #fff; /* Cor do texto do cabeçalho */
+  }
+  
+  /* Estilo para ícones dentro do mat-card */
+  .mat-card-header mat-icon {
+    color: #fff; /* Cor dos ícones */
+  }
+  

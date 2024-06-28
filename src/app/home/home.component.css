@@ -1,0 +1,78 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header {
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5em;
+    margin: 10px 0;
+  }
+  
+  header h3 {
+    font-size: 1.5em;
+    color: #555;
+    margin: 10px 0;
+  }
+  
+  section {
+    margin-bottom: 40px;
+  }
+  
+  section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .mat-card {
+    padding: 20px;
+  }
+  
+  .mat-card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .mat-card-header mat-icon {
+    font-size: 2em;
+  }
+  
+  .testimonial {
+    margin: 20px auto;
+    max-width: 800px;
+    text-align: left;
+  }
+  
+  .partnership-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .partnership-logos img {
+    max-width: 150px;
+    height: auto;
+  }
+  
+  footer {
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #777;
+  }
+  
+  .mat-toolbar {
+    background-color: #3f51b5
+  }
+  

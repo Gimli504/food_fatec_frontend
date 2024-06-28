@@ -1,0 +1,46 @@
+.full-width {
+  width: 100%;
+}
+
+.half-width {
+  width: 50%;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 20px; 
+}
+
+.form-field {
+  width: 100%;
+}
+
+.mat-card {
+  padding: 20px;
+  margin: 20px auto;
+  
+}
+
+.mat-form-field {
+  margin-bottom: 20px;
+}
+
+button.full-width {
+  margin-top: 10px;
+}
+
+.error-message {
+  background-color: #f8d7da;
+  color: #721c24;
+  border: 1px solid #f5c6cb;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.mat-toolbar {
+  margin-bottom: 20px;
+}
